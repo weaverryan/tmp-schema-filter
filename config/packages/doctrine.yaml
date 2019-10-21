@@ -8,6 +8,7 @@ doctrine:
 
         # only needed for MySQL
         charset: utf8mb4
+        #schema_filter: ~^(?!session)~
         default_table_options:
             charset: utf8mb4
             collate: utf8mb4_unicode_ci
